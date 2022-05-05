@@ -1,0 +1,267 @@
+
+/* BIG SCREEN MONITOR */
+
+@media screen and (max-width:1200px){
+    .container{
+        max-width: 970px;
+        margin: 0 auto;
+    }
+    .container .loginPage-forms{
+        width: 100%;
+     }
+}
+
+/* MEDIUM SCREEN PLANSHETS MONITOR */
+
+@media screen and (max-width:828px){
+
+    .container{
+        margin: 20px auto;
+    }
+    .container .logo-left{
+        display: none;
+    }
+
+    .login-form .container .loginPage-forms > img{
+        width: 25px;
+    }
+    .login-form .container .loginPage-forms h1{
+        width: 45%;
+        color: #525252;
+        font-weight: 700, bold;
+        font-size: 15px;
+    }
+    .login-form .container .loginPage-forms .seeText{
+        width: 40%;
+        font-size: 8px;
+        font-weight: 400;
+        color: #525252;
+    }
+
+    .login-form .container .loginPage-forms .googleIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        color: #828282;
+        margin-top: 5px;
+        border: 1px solid #eee;
+        border-radius: 4px;
+    }
+    .login-form .container .loginPage-forms .googleIcon img{
+        width: 15px;
+    }
+    .login-form .container .loginPage-forms .sign-in{
+        width: 180px;
+        height: 16px;
+        margin:10px auto;
+        font-weight: 600;
+        font-size: 8px;
+        color: #DDDDDD;
+    }
+    .container .loginPage-forms{
+       width: 65%;
+    }
+    form{
+        width: 100%;
+    }
+    form .login{
+        width: 26px;
+        height: 19px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 19.1px;
+        margin-top: 5px;
+        color: #828282;
+}
+    form  #inputLogin{
+        border: 1px solid #eee;
+        padding: 5px;
+        width: 100%;
+        border-radius: 4px;
+    }
+    form .password{
+        width: 26px;
+        height: 19px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 19.1px;
+        margin-top: 5px;
+        color: #828282;
+    }
+    form #inputPassword{
+        border: 1px solid #eee;
+        padding: 5px;
+        width: 100%;
+        border-radius: 4px;
+    }
+    form label {
+        color: #A1A1A1;
+        cursor: pointer;
+        line-height: 30px;
+        font-size: 8px;
+        padding: 10px 0;
+    }
+    form .check-box a{
+        color: #7F265B;
+        font-weight: 600;
+        font-size: 9px;
+        line-height: 16.37px;
+    }
+    form .btn{
+        width: 100%;
+        border-radius: 6px;
+        padding: 5px;
+        border: 1px solid #eee;
+        background-color: #7F265B;
+        color: #fff;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all .4s;
+    }
+    form .btn:hover{
+        color: #7F265B;
+        background-color: #fff;
+    }
+    .loginPage-forms .createAccount{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        height: 20vh;
+    }
+    .loginPage-forms .createAccount a{
+        font-size: 8px;
+    }
+
+}
+
+/* SMALL SCREEN MOBILE MONITOR */
+
+@media screen and (max-width:556px){
+
+    .container{
+        margin: 20px auto;
+    }
+    .container .logo-left{
+        display: none;
+    }
+
+    .login-form .container .loginPage-forms > img{
+        width: 15px;
+    }
+    .login-form .container .loginPage-forms h1{
+        width:100%;
+        color: #525252;
+        font-weight: 700, bold;
+        font-size: 12px;
+    }
+    .login-form .container .loginPage-forms .seeText{
+        width: 100%;
+        font-size: 8px;
+        font-weight: 400;
+        color: #525252;
+    }
+
+    .login-form .container .loginPage-forms .googleIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8px;
+        color: #828282;
+        border: 1px solid #eee;
+        border-radius: 4px;
+    }
+    .login-form .container .loginPage-forms .googleIcon img{
+        width: 10px;
+    }
+    .login-form .container .loginPage-forms .sign-in{
+        width: 150px;
+        margin:5px auto;
+        font-weight: 600;
+        font-size: 8px;
+        color: #DDDDDD;
+    }
+    .container .loginPage-forms{
+       width: 55%;
+    }
+    form{
+        width: 100%;
+    }
+    form .login{
+        width: 16px;
+        height: 19px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        font-size: 8px;
+        line-height: 19.1px;
+        margin-top: 5px;
+        color: #828282;
+}
+    form  #inputLogin{
+        border: 1px solid #eee;
+        padding: 2px;
+        width: 100%;
+        border-radius: 4px;
+    }
+    ::placeholder{
+        font-size: 8px;
+    }
+    form .password{
+        width: 16px;
+        height: 19px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        font-size: 8px;
+        line-height: 19.1px;
+        margin-top: 5px;
+        color: #828282;
+    }
+    form #inputPassword{
+        border: 1px solid #eee;
+        padding: 2px;
+        width: 100%;
+        border-radius: 4px;
+    }
+    form label {
+        color: #A1A1A1;
+        cursor: pointer;
+        line-height: 30px;
+        font-size: 8px;
+        padding: 10px 0;
+    }
+    form .check-box a{
+        color: #7F265B;
+        font-weight: 600;
+        font-size: 8px;
+    }
+    form .btn{
+        width: 100%;
+        border-radius: 6px;
+        padding: 5px;
+        border: 1px solid #eee;
+        background-color: #7F265B;
+        color: #fff;
+        font-size: 8px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all .4s;
+    }
+    form .btn:hover{
+        color: #7F265B;
+        background-color: #fff;
+    }
+    .loginPage-forms .createAccount{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        height: 15vh;
+    }
+    .loginPage-forms .createAccount a{
+        font-size: 5px;
+    }
+
+}

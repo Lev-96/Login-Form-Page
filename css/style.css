@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul,ol{
+    list-style: none;
+}
+
+body{
+    background-color: #FFE6C9;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+.login-form .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.login-form .container .logo-left{
+    min-width: 500px;
+    padding: 5px;
+}
+.login-form .container .login-page{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vh;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.login-form .container .loginPage-forms > img{
+    width: 45px;
+    margin: 20px 0;
+}
+.login-form .container .loginPage-forms h1{
+    color: #525252;
+    font-weight: 700, bold;
+    font-size: 25px;
+    line-height: 49.1px;
+}
+.login-form .container .loginPage-forms .seeText{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.82px;
+    color: #525252;
+}
+.login-form .container .loginPage-forms .googleIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 19.1px;
+    color: #828282;
+    margin-top: 15px;
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 4px;
+}
+.login-form .container .loginPage-forms .googleIcon img{
+    width: 25px;
+    margin: 0 10px;
+}
+.login-form .container .loginPage-forms .sign-in{
+    width: 230px;
+    height: 16px;
+    margin:20px auto;
+    font-weight: 600;
+    font-size: 12px;
+    color: #DDDDDD;
+    line-height: 16.37px;
+}
+form {
+    width: 100%;
+}
+form .login{
+    width: 36px;
+    height: 19px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19.1px;
+    margin-top: 10px;
+    color: #828282;
+}
+form  #inputLogin{
+    border: 1px solid #eee;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+form #emailMsg{
+    color: red;
+    font-size: 13px;
+    font-family: serif;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #ccc;
+}
+form .password{
+    width: 36px;
+    height: 19px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19.1px;
+    margin-top: 30px;
+    color: #828282;
+}
+form #inputPassword{
+    border: 1px solid #eee;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+form #passwordMsg{
+    color: red;
+    font-size: 13px;
+    font-family: serif;
+}
+form .check-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form label {
+    color: #A1A1A1;
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 10px;
+    padding: 10px 0;
+}
+form #check_1{
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -o-appearance:none;
+}
+
+input[type=checkbox] {
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -o-appearance:none;
+    outline: none;
+    content: none;	
+}
+
+input[type=checkbox]:before {
+
+	font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 10px;
+    color: transparent !important;
+    cursor: pointer;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type=checkbox]:checked:before {
+
+	content: "✓" !important;
+    color: #fff !important;
+    background: #7F265B !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .check-box a{
+    color: #7F265B;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16.37px;
+}
+form .btn{
+    width: 100%;
+    border-radius: 6px;
+    padding: 7px;
+    border: 1px solid #eee;
+    background-color: #7F265B;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .4s;
+}
+form .btn:hover{
+    color: #7F265B;
+    background-color: #fff;
+}
+
+.loginPage-forms .createAccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 20vh;
+}
+.loginPage-forms .createAccount a{
+    font-size: 12px;
+}
+.loginPage-forms .createAccount .registered{
+    color: #828282;
+    font-weight: 400;
+    line-height: 24.55px;
+}
+.loginPage-forms .createAccount .create{
+    color: #7F265B;
+    font-weight: 600;
+    line-height: 24.55px;
+}
